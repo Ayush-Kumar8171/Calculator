@@ -1,0 +1,53 @@
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.button {
+    padding: 20px 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    font-family: Roboto, Oxygen, Ubuntu;
+    color: white;
+    background-color: black;
+    width: 65px;
+    filter: drop-shadow(rgb(22, 22, 22) 2px 7px 3px);
+}
+
+.button::after{
+    color: black;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 23vw;
+    height: 72vh;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: Roboto, Oxygen, Ubuntu;
+    font-size: 22px;
+    background-color: rgb(165, 164, 164);
+    color: white;
+}
